@@ -28,6 +28,18 @@ body
     font-size: 3em;
     padding: 10px;
     margin-top: 1%;
+    letter-spacing: 0.05em;
+}
+
+#college
+{
+    text-decoration: none;
+    color:#c5ecfd;;
+}
+
+#college:hover
+{
+    color:#ffffff;;
 }
 
 #infohome
@@ -52,9 +64,10 @@ body
 }
 
 #resume:hover, #readmore:hover{
-    color: black;
+    color: #000000;
     background-color: #ffffff77;
     text-decoration: underline;
+    cursor: pointer;
 }
 .fab,.fas,.far{
     font-size: 1em;
@@ -69,15 +82,16 @@ body
     color: #b23121;
 }
 
-#about
+#container
 {
     text-align: center;
 }
 
-#aboutme
+#pagehead
 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 1.8em;
+    letter-spacing: 0.03;
 }
 #border {
     height: 3px;
@@ -108,4 +122,31 @@ body
     color: #ffffff;
     border: 1px solid transparent;
     border-radius: 30px;
+}
+
+.skill
+{
+    display: inline-block;
+    padding: 40px;
+}
+
+.skillname
+{   margin-left: -150px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#otherskillname
+{
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.containerskill
+{
+    display: inline;
 }
