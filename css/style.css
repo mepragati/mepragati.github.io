@@ -1,3 +1,4 @@
+
 body
 {
     color: #ffffff;
@@ -8,6 +9,7 @@ body
     background-size: cover;
     margin: 25px;
 }
+
 .navbar
 {
     float: left;
@@ -121,6 +123,3 @@ li:hover .fas,li:hover .far,li:active .fas,li:active .far{
     border: 0px solid transparent;
     border-radius: 7px;
 }
-
-
-
