@@ -1,0 +1,8 @@
+def convert(lst):
+    return (lst[0].split(" "))
+ 
+# Driver code
+words=["affable amiable benevolent blithesome charitable charming debonair empathetic exquisite faithful gallant generous heroic honest illustrious industrious jaunty lionhearted merciful optimistic reliable scintillating seraphic trustworthy urbane amicable buoyant cherubic conscientious considerate cordial courteous glamorous gracious honorable humorous inspirational intelligent jocund magnanimous mettlesome pulchritudinous renowned resplendent sincere sophisticated stalwart steadfast vivacious wonderful abominable aggressive barbarous cantankerous choleric craven deceitful despicable detestable dishonorable egotistical gauche harsh hostile inhumane irascible malicious narcissistic obnoxious ornery pitiless ruthless saturnine treacherous vicious arrogant avaricious belligerent boorish churlish crotchety crude curmudgeonly dour duplicitous grim gross implacable miserly morose nasty notorious pompous quarrelsome savage selfish treacherous vainglorious vile vulgar accomplished ambitious attentive bilingual capable competent conscientious dedicated dependable determined diligent diplomatic effective efficient enthusiastic entrepreneurial expert fluent gregarious industrious knowledgeable meticulous motivated multilingual passionate professional punctilious resourceful seasoned versed arctic arid balmy chilly clement crisp frigid frosty gelid glacial gloomy gusty hazy humid inclement misty muggy overcast stifling stormy sultry temperate tropical vernal wintry"]
+
+word_list=[]
+word_list+=convert(words)
